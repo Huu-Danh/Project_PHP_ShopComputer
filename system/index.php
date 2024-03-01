@@ -2,14 +2,13 @@
 <html lang="zxx">
 
 <head>
-	<title>Electro Store Ecommerce Category Bootstrap Responsive Web Template | Home :: w3layouts</title>
+	<title>Shop HD</title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8" />
-	<meta name="keywords" content="Electro Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
-	/>
+	<meta name="keywords" content="Electro Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 	<script>
-		addEventListener("load", function () {
+		addEventListener("load", function() {
 			setTimeout(hideURLbar, 0);
 		}, false);
 
@@ -24,7 +23,7 @@
 	<!-- Bootstrap css -->
 	<link href="/public/css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- Main css -->
-	<link rel="stylesheet" href="/public/css/fontawesome-all.css">
+	<link rel="stylesheet" href="public/css/fontawesome-all.css">
 	<!-- Font-Awesome-Icons-CSS -->
 	<link href="/public/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- pop-up-box -->
@@ -33,15 +32,24 @@
 	<!-- //Custom-Files -->
 	<!-- web fonts -->
 	<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
-	    rel="stylesheet">
-		
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
 	<!-- //web fonts -->
 </head>
 
 <body>
 
 	<?php include("../inc/header.php"); ?>
+	<?php
+		include_once("../system/libs/Main.php");
+		$main = new Main();
+		echo '<pre></pre>';
+		$main->chietsanpham(1,'dienthoai');
+		$url = $_GET["url"];
+		print_r($url);
+		
+
+	?>
 	<!-- banner -->
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<!-- Indicators-->
@@ -57,7 +65,8 @@
 					<div class="w3l-space-banner">
 						<div class="carousel-caption p-lg-5 p-sm-4 p-3">
 							<p>Get flat
-								<span>10%</span> Cashback</p>
+								<span>10%</span> Cashback
+							</p>
 							<h3 class="font-weight-bold pt-2 pb-lg-5 pb-4">The
 								<span>Big</span>
 								Sale
@@ -72,7 +81,8 @@
 					<div class="w3l-space-banner">
 						<div class="carousel-caption p-lg-5 p-sm-4 p-3">
 							<p>advanced
-								<span>Wireless</span> earbuds</p>
+								<span>Wireless</span> earbuds
+							</p>
 							<h3 class="font-weight-bold pt-2 pb-lg-5 pb-4">Best
 								<span>Headphone</span>
 							</h3>
@@ -86,7 +96,8 @@
 					<div class="w3l-space-banner">
 						<div class="carousel-caption p-lg-5 p-sm-4 p-3">
 							<p>Get flat
-								<span>10%</span> Cashback</p>
+								<span>10%</span> Cashback
+							</p>
 							<h3 class="font-weight-bold pt-2 pb-lg-5 pb-4">New
 								<span>Standard</span>
 							</h3>
@@ -100,7 +111,8 @@
 					<div class="w3l-space-banner">
 						<div class="carousel-caption p-lg-5 p-sm-4 p-3">
 							<p>Get Now
-								<span>40%</span> Discount</p>
+								<span>40%</span> Discount
+							</p>
 							<h3 class="font-weight-bold pt-2 pb-lg-5 pb-4">Today
 								<span>Discount</span>
 							</h3>
@@ -128,7 +140,8 @@
 			<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
 				<span>S</span>ản
 				<span>P</span>hẩm
-				<span>M</span>ới</h3>
+				<span>M</span>ới
+			</h3>
 			<!-- //tittle heading -->
 			<div class="row">
 				<!-- product left -->
@@ -800,7 +813,7 @@
 	<!-- middle section -->
 
 	<!-- footer -->
-	<?php include("../inc/footer.php");?>
+	<?php include("../inc/footer.php"); ?>
 
 	<!-- js-files -->
 	<!-- jquery -->
@@ -809,13 +822,13 @@
 
 	<!-- nav smooth scroll -->
 	<script>
-		$(document).ready(function () {
+		$(document).ready(function() {
 			$(".dropdown").hover(
-				function () {
+				function() {
 					$('.dropdown-menu', this).stop(true, true).slideDown("fast");
 					$(this).toggleClass('open');
 				},
-				function () {
+				function() {
 					$('.dropdown-menu', this).stop(true, true).slideUp("fast");
 					$(this).toggleClass('open');
 				}
@@ -827,7 +840,7 @@
 	<!-- popup modal (for location)-->
 	<script src="/public/js/jquery.magnific-popup.js"></script>
 	<script>
-		$(document).ready(function () {
+		$(document).ready(function() {
 			$('.popup-with-zoom-anim').magnificPopup({
 				type: 'inline',
 				fixedContentPos: false,
@@ -849,7 +862,7 @@
 	<script>
 		paypals.minicarts.render(); //use only unique class names other than paypals.minicarts.Also Replace same class name in css and minicart.min.js
 
-		paypals.minicarts.cart.on('checkout', function (evt) {
+		paypals.minicarts.cart.on('checkout', function(evt) {
 			var items = this.items(),
 				len = items.length,
 				total = 0,
@@ -870,7 +883,7 @@
 
 	<!-- password-script -->
 	<script>
-		window.onload = function () {
+		window.onload = function() {
 			document.getElementById("password1").onchange = validatePassword;
 			document.getElementById("password2").onchange = validatePassword;
 		}
@@ -886,7 +899,7 @@
 		}
 	</script>
 	<!-- //password-script -->
-	
+
 	<!-- scroll seller -->
 	<script src="/public/js/scroll.js"></script>
 	<!-- //scroll seller -->
@@ -899,8 +912,8 @@
 	<script src="/public/js/move-top.js"></script>
 	<script src="/public/js/easing.js"></script>
 	<script>
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event) {
 				event.preventDefault();
 
 				$('html,body').animate({
@@ -913,7 +926,7 @@
 
 	<!-- smooth-scrolling-of-move-up -->
 	<script>
-		$(document).ready(function () {
+		$(document).ready(function() {
 			/*
 			var defaults = {
 				containerID: 'toTop', // fading element id
