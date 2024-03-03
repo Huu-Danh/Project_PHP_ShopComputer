@@ -39,17 +39,8 @@
 
 <body>
 
-	<?php include("../inc/header.php"); ?>
-	<?php
-		include_once("../system/libs/Main.php");
-		$main = new Main();
-		echo '<pre></pre>';
-		$main->chietsanpham(1,'dienthoai');
-		$url = $_GET["url"];
-		print_r($url);
-		
+	<?php include("../app/views/header.php"); ?>
 
-	?>
 	<!-- banner -->
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<!-- Indicators-->
@@ -813,7 +804,7 @@
 	<!-- middle section -->
 
 	<!-- footer -->
-	<?php include("../inc/footer.php"); ?>
+	<?php include("../app/views/footer.php"); ?>
 
 	<!-- js-files -->
 	<!-- jquery -->

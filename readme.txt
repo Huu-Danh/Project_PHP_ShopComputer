@@ -22,7 +22,7 @@ Template:
             Đăng ký tài khoản
             Đăng nhập
         - Quản lý danh mục sản phẩm
-        - Quản lý sản phầm
+        - Quản lý sản phẩm
         - Quản lý đơn hàng
             Hiển thị được danh sách đơn hàng -> hiển thị giảm dần theo thời gian (quản lý được các trạng thái đơn hàng)
         - Quản lý phản hồi
@@ -36,7 +36,8 @@ Phân tích thiết kế database
 
 2/ Bảng User
     - id: int -> khóa chính tự tăng
-    - fullname -> varchar(50)
+    - user_name: varchar(50)
+    - fullname -> varchar(255)
     - email -> varchar(150)
     - phone  -> varchar(20)
     - address -> varchar(255)
@@ -47,7 +48,7 @@ Phân tích thiết kế database
     - name: varchar(255)
 4/ Bảng sản phẩm -> Product
     - id: int -> khóa tự động tăng
-    - catagory_id -> int  -> foregin key -> Category(id)
+    - category_id -> int  -> foregin key -> Category(id)
     - name: varchar(255)
     - price: int 
     - discount: int
@@ -64,7 +65,7 @@ Phân tích thiết kế database
     - New: int
     - Delete: int
 
-5/ Bảng phản hồi:
+5/ Bảng phản hồi: Feedback
     - id: int -> khóa tự động tăng
     - name: varchar(255)
     - email: varchar(150)
@@ -81,10 +82,32 @@ Phân tích thiết kế database
     - supplier_id: int -> foregin key Supplier(id)
     - update_at: datetime
     - Delete: int
-8/ Bảng chi tiết phiếu nhập: Detail Supplier
+8/ Bảng chi tiết phiếu nhập: Detail Receipt
     - id: int -> khóa tự động tăng
     - receipt_is: int -> foregin key Receipt(id)
     - product_id: int -> foregin key Product(id)
     - price: int
     - quantity: int
+9/ Bảng Khách hàng: Client
+    - id: int -> khóa tự động tăng
+    - user_id: int -> foregin key User(id)
+    - name: varchar(255)
+    - address: varchar(255)
+    - phone: varchar(12)
 
+10/ Bảng Đơn đặt hàng: The order
+    - id: int -> khóa tự động tăng
+    - client_id: int -> foregin key Client(id)
+    - order_date: datetime
+    - delivery_status: varchar(255)
+    - delivery_date: datetime
+    - Paid: int
+    - Cancel: int
+    - Delete: int
+11/ Bảng chi tiết đơn hàng: Detail the ortder   
+    - id: int -> khóa tự động tăng
+    - order_id: int -> foregin key The order(id)
+    - product_id: int -> foregin key Product(id)
+    - product_name: varchar(255)
+    - quantity: int
+    - price: int
