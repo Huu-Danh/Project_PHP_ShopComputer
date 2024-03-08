@@ -973,17 +973,18 @@ span.item_price {
 }
 
 .product-sec1.product-sec2 {
-    background: #F45C5D;
+
     position: relative;
+    background-image: url('/public/img/mac.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    height: 400px;
+
 }
 
-h3.effect-bg {
-    color: #fff;
-    font-size: 45px;
-    letter-spacing: 3px;
-    font-weight: 600;
-    margin-top: 2.2em;
-}
+
 
 p.w3l-nut-middle {
     position: absolute;
@@ -991,7 +992,7 @@ p.w3l-nut-middle {
     bottom: 42%;
     font-size: 31px;
     font-weight: 800;
-    color: rgba(10, 10, 10, 0.38);
+    color: rgb(255 234 0 / 69%);
     transform: rotate(-64deg);
     -ms-transform: rotate(-64deg);
     -webkit-transform: rotate(-64deg);

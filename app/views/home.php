@@ -232,25 +232,25 @@
 						<!-- //first section -->
 						<!-- second section -->
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
-							<h3 class="heading-tittle text-center font-italic">Tv & Audio</h3>
+							<h3 class="heading-tittle text-center font-italic">Router Wifi</h3>
 							<div class="row">
 								<div class="col-md-4 product-men mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
-											<img src="/public/img/m4.jpg" alt="">
+											<img src="/public/img/Wifi Tenda.jpg" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
+													<a href="single.html" class="link-product-add-cart">Xem chi tiết</a>
 												</div>
 											</div>
 										</div>
 										<div class="item-info-product text-center border-top mt-4">
 											<h4 class="pt-1">
-												<a href="single.html">Sony 80 cm (32 inches)</a>
+												<a href="single.html">Bộ Phát Wifi Tenda AC10 (AC1200Mbps)</a>
 											</h4>
 											<div class="info-product-price my-2">
-												<span class="item_price">$320.00</span>
-												<del>$340.00</del>
+												<span class="item_price">640,000₫</span>
+												<del>700,000đ</del>
 											</div>
 											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 												<form action="#" method="post">
@@ -264,7 +264,7 @@
 														<input type="hidden" name="currency_code" value="USD" />
 														<input type="hidden" name="return" value=" " />
 														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
+														<input type="submit" name="submit" value="Thêm vào giỏ" class="button btn" />
 													</fieldset>
 												</form>
 											</div>
@@ -274,22 +274,22 @@
 								<div class="col-md-4 product-men mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
-											<img src="/public/img/m5.jpg" alt="">
+											<img src="/public/img/Wifi Tenda.jpg" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
+													<a href="single.html" class="link-product-add-cart">Xem chi tiết</a>
 												</div>
 											</div>
-											<span class="product-new-top">New</span>
+											<span class="product-new-top">Mới</span>
 
 										</div>
 										<div class="item-info-product text-center border-top mt-4">
 											<h4 class="pt-1">
-												<a href="single.html">Artis Speaker</a>
+												<a href="single.html">Bộ Phát Wifi Tenda AC10 (AC1200Mbps)Bộ Phát Wifi Tenda AC10 (AC1200Mbps)</a>
 											</h4>
 											<div class="info-product-price my-2">
-												<span class="item_price">$349.00</span>
-												<del>$399.00</del>
+												<span class="item_price">640,000₫</span>
+												<del>700,000₫</del>
 											</div>
 											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 												<form action="#" method="post">
@@ -303,7 +303,7 @@
 														<input type="hidden" name="currency_code" value="USD" />
 														<input type="hidden" name="return" value=" " />
 														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
+														<input type="submit" name="submit" value="Thêm vào giỏ" class="button btn" />
 													</fieldset>
 												</form>
 											</div>
@@ -314,20 +314,20 @@
 								<div class="col-md-4 product-men mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
-											<img src="/public/img/m6.jpg" alt="">
+											<img src="/public/img/Wifi Tenda.jpg" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
+													<a href="single.html" class="link-product-add-cart">Xem chi tiết</a>
 												</div>
 											</div>
 										</div>
 										<div class="item-info-product text-center border-top mt-4">
 											<h4 class="pt-1">
-												<a href="single.html">Philips Speakers</a>
+												<a href="single.html">Bộ Phát Wifi Tenda AC10 (AC1200Mbps)</a>
 											</h4>
 											<div class="info-product-price my-2">
-												<span class="item_price">$249.00</span>
-												<del>$300.00</del>
+												<span class="item_price">640,000₫</span>
+												<del>700,000₫</del>
 											</div>
 											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 												<form action="#" method="post">
@@ -341,7 +341,7 @@
 														<input type="hidden" name="currency_code" value="USD" />
 														<input type="hidden" name="return" value=" " />
 														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
+														<input type="submit" name="submit" value="Thêm vào giỏ" class="button btn" />
 													</fieldset>
 												</form>
 											</div>
@@ -354,36 +354,35 @@
 						<!-- third section -->
 						<div class="product-sec1 product-sec2 px-sm-5 px-3">
 							<div class="row">
-								<h3 class="col-md-4 effect-bg">Summer Carnival</h3>
-								<p class="w3l-nut-middle">Get Extra 10% Off</p>
+								<h3 class="col-md-4 effect-bg">Ưu đãi</h3>
+								<p class="w3l-nut-middle">Quà tặng hấp dẫn</p>
 								<div class="col-md-8 bg-right-nut">
-									<img src="/public/img/image1.png" alt="">
 								</div>
 							</div>
 						</div>
 						<!-- //third section -->
 						<!-- fourth section -->
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
-							<h3 class="heading-tittle text-center font-italic">Large Appliances</h3>
+							<h3 class="heading-tittle text-center font-italic">Switch</h3>
 							<div class="row">
 								<div class="col-md-4 product-men mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
-											<img src="/public/img/m7.jpg" alt="">
+											<img src="/public/img/switch.jpg" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
+													<a href="single.html" class="link-product-add-cart">Xem chi tiết</a>
 												</div>
 											</div>
 										</div>
 										<span class="product-new-top">New</span>
 										<div class="item-info-product text-center border-top mt-4">
 											<h4 class="pt-1">
-												<a href="single.html">Whirlpool 245</a>
+												<a href="single.html">Switch 4 Port Aptek (SF1042P)</a>
 											</h4>
 											<div class="info-product-price my-2">
-												<span class="item_price">$230.00</span>
-												<del>$280.00</del>
+												<span class="item_price">1,425,000₫</span>
+												<del>1,500,000₫</del>
 											</div>
 											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 												<form action="#" method="post">
@@ -397,7 +396,7 @@
 														<input type="hidden" name="currency_code" value="USD" />
 														<input type="hidden" name="return" value=" " />
 														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
+														<input type="submit" name="submit" value="Thêm vào giỏ" class="button btn" />
 													</fieldset>
 												</form>
 											</div>
@@ -408,20 +407,20 @@
 								<div class="col-md-4 product-men mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
-											<img src="/public/img/m8.jpg" alt="">
+											<img src="/public/img/switch.jpg" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
+													<a href="single.html" class="link-product-add-cart">Xem chi tiết</a>
 												</div>
 											</div>
 										</div>
 										<div class="item-info-product text-center border-top mt-4">
 											<h4 class="pt-1">
-												<a href="single.html">BPL Washing Machine</a>
+												<a href="single.html">Switch 4 Port Aptek (SF1042P)</a>
 											</h4>
 											<div class="info-product-price my-2">
-												<span class="item_price">$180.00</span>
-												<del>$200.00</del>
+												<span class="item_price">1,425,000₫</span>
+												<del>1,500,000₫</del>
 											</div>
 											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 												<form action="#" method="post">
@@ -435,7 +434,7 @@
 														<input type="hidden" name="currency_code" value="USD" />
 														<input type="hidden" name="return" value=" " />
 														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
+														<input type="submit" name="submit" value="Thêm vào giỏ" class="button btn" />
 													</fieldset>
 												</form>
 											</div>
@@ -446,20 +445,20 @@
 								<div class="col-md-4 product-men mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
-											<img src="/public/img/m9.jpg" alt="">
+											<img src="/public/img/switch.jpg" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
+													<a href="single.html" class="link-product-add-cart">Xem chi tiết</a>
 												</div>
 											</div>
 										</div>
 										<div class="item-info-product text-center border-top mt-4">
 											<h4 class="pt-1">
-												<a href="single.html">Microwave Oven</a>
+												<a href="single.html">Switch 4 Port Aptek (SF1042P)</a>
 											</h4>
 											<div class="info-product-price my-2">
-												<span class="item_price">$199.00</span>
-												<del>$299.00</del>
+												<span class="item_price">1,425,000₫</span>
+												<del>1,500,000₫</del>
 											</div>
 											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 												<form action="#" method="post">
@@ -473,7 +472,7 @@
 														<input type="hidden" name="currency_code" value="USD" />
 														<input type="hidden" name="return" value=" " />
 														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
+														<input type="submit" name="submit" value="Thêm vào giỏ" class="button btn" />
 													</fieldset>
 												</form>
 											</div>
