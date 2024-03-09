@@ -1,13 +1,12 @@
-<h1>This Home Page</h1>
 <p>category:
     <?php
-        foreach($data as $key)
+        foreach($data['category'] as $key => $value)
         {
-            echo $key['catOne'].'<br>';
-            echo $key['catTwo'].'<br>';
-            echo $key['catThree'].'<br>';
-            echo $key['catFour'].'<br>';
+			echo $value['name'].'<br>';
         }
+
+		echo 	$data['category'][1]['name'];
+
     ?>
 </p>
 	<!-- banner -->

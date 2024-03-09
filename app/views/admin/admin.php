@@ -130,7 +130,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                             <i class="pull-left fa fa-dollar icon-rounded"></i>
                             <div class="stats">
                                 <h5><strong>$452</strong></h5>
-                                <span>Total Revenue</span>
+                                <span>Doanh thu</span>
                             </div>
                         </div>
                     </div>
@@ -138,8 +138,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                         <div class="r3_counter_box">
                             <i class="pull-left fa fa-laptop user1 icon-rounded"></i>
                             <div class="stats">
-                                <h5><strong>$1019</strong></h5>
-                                <span>Online Revenue</span>
+                                <h5><strong>1019</strong></h5>
+                                <span>Online</span>
                             </div>
                         </div>
                     </div>
@@ -148,7 +148,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                             <i class="pull-left fa fa-money user2 icon-rounded"></i>
                             <div class="stats">
                                 <h5><strong>$1012</strong></h5>
-                                <span>Expenses</span>
+                                <span>Tháng</span>
                             </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                             <i class="pull-left fa fa-users dollar2 icon-rounded"></i>
                             <div class="stats">
                                 <h5><strong>1450</strong></h5>
-                                <span>Total Users</span>
+                                <span>Thành viên</span>
                             </div>
                         </div>
                     </div>

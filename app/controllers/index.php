@@ -12,12 +12,16 @@ class index extends DController{
     {
         $this->load->view('header');
         $homemodel = $this->load->model('homemodel');
-        $data['category'] = $homemodel->category();
-        
+
+        $table_category = 'category'; 
+        $data['category'] = $homemodel->category($table_category);
+
         $this->load->view('home', $data);
         $this->load->view('footer');
     }
 
+
+    
 
 } 
 

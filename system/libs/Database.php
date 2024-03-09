@@ -1,14 +1,18 @@
 <?php
 
-class Database extends PDO{   
+class Database extends PDO {   
 
-    public function __construct()
+    public function __construct($connect, $user, $pass)
     {
-        $connect = 'mysql:dbname:=doanphp; host=localhost';  //PDO connection string
-        $user='root';
-        $pass = '';
-        $db = new PDO( $connect, $user, $pass );   
-        parent::__construct($connect,$user,$pass);  
+        parent::__construct($connect, $user, $pass);  
+    }
+
+    public function select($table)
+    {
+        $sql = "SELECT * FROM $table";
+        $statement = $this->prepare($sql);
+        $statement->execute();
+        return $statement->fetchAll();
     }
 }
 

@@ -1,20 +1,15 @@
 <?php
 
-class homemodel {
+class homemodel extends DModel{
 
     public function __construct()
     {
+        parent::__construct();
     }
 
-    public function category()
+    public function category($table_category)
     {
-        return $category = array(
-            'catOne' => 'Dien thoai',
-            'catTwo' => 'May tinh',
-            'catThree' => 'Oto',
-            'catFour' => 'Laptop'
-        );
-
+        return $this->db->select($table_category);
     }
 }
 
