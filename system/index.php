@@ -17,7 +17,7 @@
 			{
 				unset($url);
 			}
-			print_r($url); 
+ 
 			if(isset($url[0]))
 			{
 				include_once('../app/controllers/'.$url[0].'.php');
@@ -27,7 +27,7 @@
 			{
 				include_once('../app/controllers/index.php');
 				$index = new index();
-				$index->homepage();
+				$index->category();
  			}
 		?>
 	</h1>

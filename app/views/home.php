@@ -5,7 +5,6 @@
 			echo $value['name'].'<br>';
         }
 
-		echo 	$data['category'][1]['name'];
 
     ?>
 </p>

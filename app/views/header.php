@@ -23,7 +23,7 @@
 	<!-- Bootstrap css -->
 	<link href="/public/css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- Main css -->
-	<link rel="stylesheet" href="public/css/fontawesome-all.css">
+	<link rel="stylesheet" href="/public/css/fontawesome-all.css">
 	<!-- Font-Awesome-Icons-CSS -->
 	<link href="/public/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- pop-up-box -->
@@ -33,10 +33,9 @@
 	<!-- web fonts -->
 	<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 	<!-- //web fonts -->
 </head>
-
 <body>
 <!-- top-header -->
 	<div class="agile-main-top">

@@ -2,12 +2,7 @@
 		<div class="footer-top-first">
 			<div class="container py-md-5 py-sm-4 py-3">
 				<!-- footer first section -->
-				<h2 class="footer-top-head-w3l font-weight-bold mb-2">Electronics :</h2>
-				<p class="footer-main mb-4">
-					If you're considering a new laptop, looking for a powerful new car stereo or shopping for a new HDTV, we make it easy to
-					find exactly what you need at a price you can afford. We offer Every Day Low Prices on TVs, laptops, cell phones, tablets
-					and iPads, video games, desktop computers, cameras and camcorders, audio, video and more.</p>
-				<!-- //footer first section -->
+
 				<!-- footer second section -->
 				<div class="row w3l-grids-footer border-top border-bottom py-sm-4 py-3">
 					<div class="col-md-4 offer-footer">
@@ -16,8 +11,8 @@
 								<i class="fas fa-dolly"></i>
 							</div>
 							<div class="col-8 text-form-footer">
-								<h3>Free Shipping</h3>
-								<p>on orders over $100</p>
+								<h3>Miễn phí ship</h3>
+								<p>cho đơn hàng trên 50.000.000vnđ</p>
 							</div>
 						</div>
 					</div>
@@ -27,8 +22,8 @@
 								<i class="fas fa-shipping-fast"></i>
 							</div>
 							<div class="col-8 text-form-footer">
-								<h3>Fast Delivery</h3>
-								<p>World Wide</p>
+								<h3>Chuyển phát nhanh</h3>
+								<p>các tỉnh thành Việt Nam</p>
 							</div>
 						</div>
 					</div>
@@ -38,8 +33,8 @@
 								<i class="far fa-thumbs-up"></i>
 							</div>
 							<div class="col-8 text-form-footer">
-								<h3>Big Choice</h3>
-								<p>of Products</p>
+								<h3>Được nhiều </h3>
+								<p>sự lựa chọn của mọi người</p>
 							</div>
 						</div>
 					</div>
@@ -53,76 +48,71 @@
 				<div class="row footer-info w3-agileits-info">
 					<!-- footer categories -->
 					<div class="col-md-3 col-sm-6 footer-grids">
-						<h3 class="text-white font-weight-bold mb-3">Categories</h3>
+						<h3 class="text-white font-weight-bold mb-3">Danh mục sản phẩm</h3>
 						<ul>
 							<li class="mb-3">
-								<a href="product.html">Mobiles </a>
+								<a href="product.html">Thiết bị mạng</a>
 							</li>
 							<li class="mb-3">
-								<a href="product.html">Computers</a>
-							</li>
-							<li class="mb-3">
-								<a href="product.html">TV, Audio</a>
-							</li>
-							<li class="mb-3">
-								<a href="product2.html">Smartphones</a>
-							</li>
-							<li class="mb-3">
-								<a href="product.html">Washing Machines</a>
-							</li>
-							<li>
-								<a href="product2.html">Refrigerators</a>
+								<a href="product.html">Máy tính</a>
 							</li>
 						</ul>
 					</div>
 					<!-- //footer categories -->
 					<!-- quick links -->
 					<div class="col-md-3 col-sm-6 footer-grids mt-sm-0 mt-4">
-						<h3 class="text-white font-weight-bold mb-3">Quick Links</h3>
+						<h3 class="text-white font-weight-bold mb-3">Đường dẫn nhanh</h3>
 						<ul>
 							<li class="mb-3">
-								<a href="about.html">About Us</a>
+								<a href="about.html">Thông tin về chúng tôi</a>
 							</li>
 							<li class="mb-3">
-								<a href="contact.html">Contact Us</a>
+								<a href="contact.html">Liên hệ</a>
 							</li>
 							<li class="mb-3">
-								<a href="help.html">Help</a>
+								<a href="help.html">Giúp đỡ</a>
 							</li>
 							<li class="mb-3">
-								<a href="faqs.html">Faqs</a>
+								<a href="help.html">Tư vấn mua hàng</a>
 							</li>
 							<li class="mb-3">
-								<a href="terms.html">Terms of use</a>
+								<a href="help.html">Tuyển dụng</a>
 							</li>
-							<li>
-								<a href="privacy.html">Privacy Policy</a>
+							<li class="mb-3">
+								<a href="help.html">Tổng hợp khuyến mãi</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-md-3 col-sm-6 footer-grids mt-md-0 mt-4">
-						<h3 class="text-white font-weight-bold mb-3">Get in Touch</h3>
+						<h3 class="text-white font-weight-bold mb-3">Chính sách chung</h3>
 						<ul>
 							<li class="mb-3">
-								<i class="fas fa-map-marker"></i> 123 Sebastian, USA.</li>
-							<li class="mb-3">
-								<i class="fas fa-mobile"></i> 333 222 3333 </li>
-							<li class="mb-3">
-								<i class="fas fa-phone"></i> +222 11 4444 </li>
-							<li class="mb-3">
-								<i class="fas fa-envelope-open"></i>
-								<a href="mailto:example@mail.com"> mail 1@example.com</a>
+								<a href="about.html">Chính sách chung</a>
 							</li>
-							<li>
-								<i class="fas fa-envelope-open"></i>
-								<a href="mailto:example@mail.com"> mail 2@example.com</a>
+							<li class="mb-3">
+								<a href="contact.html">Chính sách trả góp</a>
+							</li>
+							<li class="mb-3">
+								<a href="help.html">Chính sách bảo mật</a>
+							</li>
+							<li class="mb-3">
+								<a href="help.html">Chính sách giải quyết khiếu nại</a>
+							</li>
+							<li class="mb-3">
+								<a href="help.html">Chính sách bảo vệ thông tin cá nhân</a>
+							</li>
+							<li class="mb-3">
+								<a href="help.html">Chính sách bảo hành</a>
+							</li>
+							<li class="mb-3">
+								<a href="help.html">Chính sách đổi trả hàng</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-md-3 col-sm-6 footer-grids w3l-agileits mt-md-0 mt-4">
 						<!-- newsletter -->
-						<h3 class="text-white font-weight-bold mb-3">Newsletter</h3>
-						<p class="mb-3">Free Delivery on your first order!</p>
+						<h3 class="text-white font-weight-bold mb-3">Hổ trợ khách hàng</h3>
+						<p class="mb-3">Giao hàng miễn phí cho đơn hàng đầu tiên</p>
 						<form action="#" method="post">
 							<div class="form-group">
 								<input type="email" class="form-control" placeholder="Email" name="email" required="">
@@ -132,7 +122,7 @@
 						<!-- //newsletter -->
 						<!-- social icons -->
 						<div class="footer-grids  w3l-socialmk mt-3">
-							<h3 class="text-white font-weight-bold mb-3">Follow Us on</h3>
+							<h3 class="text-white font-weight-bold mb-3">Theo dõi chúng tôi</h3>
 							<div class="social">
 								<ul>
 									<li>
@@ -165,7 +155,7 @@
 		<div class="agile-sometext py-md-5 py-sm-4 py-3">
 			<div class="container">
 				<!-- brands -->
-				<div class="sub-some">
+				<!-- <div class="sub-some">
 					<h5 class="font-weight-bold mb-2">Mobile & Tablets :</h5>
 					<ul>
 						<li class="m-sm-1">
@@ -368,11 +358,11 @@
 							<a href="product2.html" class="border-right pr-2">Sandwich Makers</a>
 						</li>
 					</ul>
-				</div>
+				</div> -->
 				<!-- //brands -->
 				<!-- payment -->
 				<div class="sub-some child-momu mt-4">
-					<h5 class="font-weight-bold mb-3">Payment Method</h5>
+					<h5 class="font-weight-bold mb-3">Phương thức thanh toán</h5>
 					<ul>
 						<li>
 							<img src="/public/img/pay2.png" alt="">
@@ -549,6 +539,8 @@
 	<!-- for bootstrap working -->
 	<script src="/public/js/bootstrap.js"></script>
 	<!-- //for bootstrap working -->
+
+	<script src="/public//js//apiprovince.js"></script>
 	<!-- //js-files -->
 </body>
 

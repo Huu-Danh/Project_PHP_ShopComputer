@@ -1226,6 +1226,7 @@ h2.footer-top-head-w3l {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     transition: 0.5s all;
+    font-size: 20px;
 }
 
 .w3l-agileits input[type="submit"]:hover {

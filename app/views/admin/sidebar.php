@@ -66,7 +66,6 @@
             <i class="fa fa-angle-left pull-right"></i>
           </a>
           <ul class="treeview-menu">
-            <li><a href="login.html"><i class="fa fa-angle-right"></i> Đăng nhập</a></li>
             <li><a href="signup.html"><i class="fa fa-angle-right"></i> Đăng ký</a></li>
           </ul>
         </li>

@@ -1,5 +1,5 @@
 <div class="footer">
-    <p>&copy; 2024 Người chịu trách nhiệm: Nguyễn Tấn Hữu Danh </p>
+    <p>&copy; 2024 Người chịu trách nhiệm:  </p>
 </div>
 
 <script src="/public/templateAdmin/js/Chart.bundle.js"></script>
