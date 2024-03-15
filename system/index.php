@@ -2,11 +2,12 @@
 	<h1>
 
 		<?php 
-			include_once('../system/libs/Main.php');
-			include_once('../system/libs/DController.php');	
-			include_once('../system/libs/Load.php');
-			include_once('../system/libs/DModel.php');
-			include_once('../system/libs/Database.php');
+			spl_autoload_register(function($class)
+			{
+			include_once('../system/libs/'.$class.'.php');
+
+			});
+
 			$url = isset($_GET['url']) ? $_GET['url'] : NULL;
 			if($url != null)
 			{
@@ -27,7 +28,11 @@
 			{
 				include_once('../app/controllers/index.php');
 				$index = new index();
-				$index->category();
+				$index->homepage();
+
+				// include_once('../app/controllers/category.php');
+				// $category = new category();
+				// $category->category();
  			}
 		?>
 	</h1>

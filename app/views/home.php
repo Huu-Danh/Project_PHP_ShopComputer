@@ -1,13 +1,4 @@
-<p>category:
-    <?php
-        foreach($data['category'] as $key => $value)
-        {
-			echo $value['name'].'<br>';
-        }
 
-
-    ?>
-</p>
 	<!-- banner -->
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<!-- Indicators-->
@@ -103,7 +94,7 @@
 			<!-- //tittle heading -->
 			<div class="row">
 				<!-- product left -->
-				<div class="agileinfo-ads-display col-lg-9">
+	 			<div class="agileinfo-ads-display col-lg-9">
 					<div class="wrapper">
 						<!-- first section -->
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
@@ -112,7 +103,7 @@
 								<div class="col-md-4 product-men mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
-											<img src="/public/img/si1.jpg" alt="">
+											<img src="/public/img/laptop-asus-expertbook-b1400ceae-bv3186w_14a86dbdbecd4dc99d3c860e82827cc1_master.jpg" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="single.html" class="link-product-add-cart">Xem chi tiết</a>
@@ -149,7 +140,7 @@
 								<div class="col-md-4 product-men mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
-											<img src="/public/img/si1.jpg" alt="">
+											<img src="/public/img/usb-wifi-6-ax300-tenda-w311mi-4_f7d243d9f2c54974a238e71255a26e93_master.jpg" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="single.html" class="link-product-add-cart">Xem chi tiết</a>
@@ -352,7 +343,7 @@
 						<!-- third section -->
 						<div class="product-sec1 product-sec2 px-sm-5 px-3">
 							<div class="row">
-								<h3 class="col-md-4 effect-bg">Ưu đãi</h3>
+								<h3 class="col-md-4 effect-bg"></h3>
 								<p class="w3l-nut-middle">Quà tặng hấp dẫn</p>
 								<div class="col-md-8 bg-right-nut">
 								</div>

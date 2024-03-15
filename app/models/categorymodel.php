@@ -1,6 +1,6 @@
 <?php
 
-class homemodel extends DModel{
+class categorymodel extends DModel{
 
     public function __construct()
     {
@@ -9,7 +9,8 @@ class homemodel extends DModel{
 
     public function category($table_category)
     {
-        return $this->db->select($table_category);
+        $sql = "SELECT * FROM $table_category";
+        return $this->db->select($sql);
     }
 
     public function categorybyid($table_category, $id)

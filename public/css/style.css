@@ -3177,8 +3177,19 @@ div#testimonials h4.m-title {
 
 /*--//responsive--*/
 h4.pt-1{
-    width: 240px;
+    width: auto;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+/*image product home page*/
+
+.men-thumb-item.text-center img {
+    max-width: 100%;
+    height: 200px;
+    display: inline-block;
+    max-height: 100%;
+    
+}
+

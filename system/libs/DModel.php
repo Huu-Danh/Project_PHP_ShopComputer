@@ -11,6 +11,8 @@ class DModel{
         $pass = '';
         $this->db = new Database($connect, $user, $pass);    
     }
+
+    
 }
 
 ?>
